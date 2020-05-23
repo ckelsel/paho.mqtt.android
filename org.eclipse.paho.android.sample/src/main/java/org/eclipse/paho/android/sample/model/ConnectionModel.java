@@ -23,9 +23,9 @@ public class ConnectionModel {
 
 
     private String clientHandle = "";
-    private String clientId = "AndroidExampleClient";
-    private String serverHostName = "iot.eclipse.org";
-    private int serverPort = 1883;
+    private String clientId = android.os.Build.BRAND + " " + android.os.Build.MODEL;
+    private String serverHostName = "192.168.0.102";
+    private int serverPort = 18830;
     private boolean cleanSession = true;
     private String username = "";
     private String password = "";
